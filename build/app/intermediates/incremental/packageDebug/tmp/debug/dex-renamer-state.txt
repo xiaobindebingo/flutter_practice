@@ -1,0 +1,4 @@
+#Sat Mar 28 22:00:19 CST 2020
+base.0=/Users/liubin/AndroidStudioProjects/flutter_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
