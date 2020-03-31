@@ -9,7 +9,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-        title: '',
         home: Scaffold(
             appBar: AppBar(title: Text(name)),
             body: Center(child: RandomWords())));
@@ -25,6 +24,10 @@ class RandomWords extends StatefulWidget {
 }
 
 class RandomWordsState extends State<RandomWords> {
+
+
+
+
   final _suggestions = <WordPair>[];
   final _biggerFontStyle = const TextStyle(fontSize: 14);
   final _saved = Set<WordPair>();
